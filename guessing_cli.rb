@@ -1,4 +1,4 @@
 # Code your solution here!
 def random_num
-  num = Math.
+  num = random
 end
