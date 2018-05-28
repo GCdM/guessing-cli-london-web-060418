@@ -10,9 +10,9 @@ def run_guessing_game
     innum = input.to_i
     rnum = random_num
     if input == "exit"
-      puts "Goodbye."
+      puts "Goodbye!"
       break
-    elsif input == rnum
+    elsif innum == rnum
       "You guessed the correct number!"
     else
       "The computer guessed #{rnum}."
