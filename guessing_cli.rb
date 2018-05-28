@@ -2,8 +2,7 @@ def run_guessing_game
   loop do
     puts "Guess a number between 1 and 6."
     input = gets.chomp
-    innum = input.to_i
-    rnum = rand(6)
+    rnum = rand(6).to_s
     if input == "exit"
       puts "Goodbye!"
       break
